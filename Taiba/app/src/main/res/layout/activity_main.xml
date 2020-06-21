@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorful88"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="73dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/pinkbutt"
+        android:fontFamily="casual"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:shadowColor="#100505"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"
+        android:text="Grade calculator"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#EF5A8D"
+        android:textColorHighlight="#E8306E"
+        android:textColorLink="#ED1B62"
+        android:textDirection="rtl"
+        android:textStyle="bold"
+        android:typeface="normal"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="273dp"
+        tools:layout_editor_absoluteX="573dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@color/colorPrimary"
+        android:backgroundTint="#56B0F8"
+        android:ems="10"
+        android:hint="Quizes %15"
+        android:inputType="textPersonName"
+        android:textColor="#EA165E" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@color/colorPrimary"
+        android:backgroundTint="#56B0F8"
+        android:ems="10"
+        android:hint="Homework %30"
+        android:inputType="textPersonName"
+        android:textColor="#EA165E" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@color/colorPrimary"
+        android:backgroundTint="#56B0F8"
+        android:ems="10"
+        android:hint="Mid terms %30"
+        android:inputType="textPersonName"
+        android:textColor="#EA165E" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="156dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@color/colorPrimary"
+        android:backgroundTint="#56B0F8"
+        android:ems="10"
+        android:hint="Final %30"
+        android:inputType="textPersonName"
+        android:textColor="#EA165E" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="248dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/pinkkkkkk"
+        android:backgroundTint="#F883AB"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="10sp"
+        android:password="false"
+        android:shadowColor="#4C4A4A"
+        android:shadowDx="80"
+        android:shadowDy="80"
+        android:shadowRadius="80"
+        android:singleLine="false"
+
+
+        android:text="CALCULATE"
+        android:textAlignment="center"
+        android:textColor="#F8C6D7"
+        android:textColorHint="#302A2A"
+        android:textColorLink="#6E5151"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:layout_conversion_absoluteHeight="62dp"
+        tools:layout_conversion_absoluteWidth="159dp"
+        tools:layout_editor_absoluteX="1037dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</LinearLayout>
